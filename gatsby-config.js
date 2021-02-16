@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "landbook",
+    title: `Landbook`,
+    description: `Landboox diseño de paginas web a medida`,
+    author: `Maximiliano Arrieta <arrieta.maxi18@gmail.com>`,
   },
   plugins: [
     "gatsby-plugin-styled-components",
