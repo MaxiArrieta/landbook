@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Section = styled.section`
   width: 100%;
-  height: 960px;
+  height: 860px;
   background-color: var(--secondary);
   color: var(--light);
   padding-top: 20px;
