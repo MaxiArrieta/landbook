@@ -1,7 +1,7 @@
-import React from "react";
-import Img from "gatsby-image";
-import { graphql, useStaticQuery } from "gatsby";
-import { Section, Div, DivImg, P, Title } from "./styles";
+import React from "react"
+import Img from "gatsby-image"
+import { graphql, useStaticQuery } from "gatsby"
+import { Section, Div, DivImg, P, Title } from "./styles"
 
 export default function About() {
   const { firstImg, secondaryImg, thirdImg } = useStaticQuery(graphql`
@@ -31,7 +31,7 @@ export default function About() {
         }
       }
     }
-  `);
+  `)
   return (
     <Section>
       <Title>
@@ -83,5 +83,5 @@ export default function About() {
         </DivImg>
       </Div>
     </Section>
-  );
+  )
 }

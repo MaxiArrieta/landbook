@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Section = styled.section`
   width: 100%;
   height: 960px;
-`;
+`
 
 export const Title = styled.div`
   margin-top: 30px;
@@ -13,7 +13,7 @@ export const Title = styled.div`
     padding: 20px;
     font-size: 1.8em;
   }
-`;
+`
 
 export const Div = styled.div`
   display: grid;
@@ -32,12 +32,12 @@ export const Div = styled.div`
     width: 150px;
     height: 300px;
   }
-`;
+`
 
 export const P = styled.p`
   color: var(--secondary);
   font-weight: 700;
-`;
+`
 
 export const DivImg = styled.div`
   div {
@@ -46,4 +46,4 @@ export const DivImg = styled.div`
     width: 150px;
     left: 20%;
   }
-`;
+`

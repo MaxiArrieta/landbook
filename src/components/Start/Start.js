@@ -1,7 +1,7 @@
-import React from "react";
-import Img from "gatsby-image";
-import { graphql, useStaticQuery } from "gatsby";
-import { Section, Div, DivImg, P } from "./styles";
+import React from "react"
+import Img from "gatsby-image"
+import { graphql, useStaticQuery } from "gatsby"
+import { Section, Div, DivImg, P } from "./styles"
 
 export default function Start() {
   const { firstImg } = useStaticQuery(graphql`
@@ -15,7 +15,7 @@ export default function Start() {
         }
       }
     }
-  `);
+  `)
 
   return (
     <Section>
@@ -35,5 +35,5 @@ export default function Start() {
         <p>14 días de prueba gratis. Sin tarjeta de crédito.</p>
       </Div>
     </Section>
-  );
+  )
 }

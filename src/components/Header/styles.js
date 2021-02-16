@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Section = styled.section`
   width: 100%;
   height: 960px;
   background-color: var(--primary);
-`;
+`
 
 export const Head = styled.header`
   display: flex;
@@ -32,7 +32,7 @@ export const Head = styled.header`
     font-weight: 700;
     cursor: pointer;
   }
-`;
+`
 
 export const DivImg = styled.div`
   display: grid;
@@ -47,7 +47,7 @@ export const DivImg = styled.div`
     height: 250px;
     width: 330px;
   }
-`;
+`
 
 export const Div = styled.div`
   display: flex;
@@ -79,8 +79,8 @@ export const Div = styled.div`
     font-weight: bold;
     cursor: pointer;
   }
-`;
+`
 
 export const P = styled.p`
   font-weight: 700;
-`;
+`

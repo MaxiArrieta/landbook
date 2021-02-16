@@ -1,6 +1,6 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import { graphql, useStaticQuery } from "gatsby";
+import React from "react"
+import { Helmet } from "react-helmet"
+import { graphql, useStaticQuery } from "gatsby"
 
 const Seo = () => {
   const { site } = useStaticQuery(graphql`
@@ -13,7 +13,7 @@ const Seo = () => {
         }
       }
     }
-  `);
+  `)
 
   return (
     <Helmet
@@ -63,7 +63,7 @@ const Seo = () => {
         rel="stylesheet"
       />
     </Helmet>
-  );
-};
+  )
+}
 
-export default Seo;
+export default Seo

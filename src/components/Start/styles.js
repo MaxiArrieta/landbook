@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Section = styled.section`
   width: 100%;
@@ -6,7 +6,7 @@ export const Section = styled.section`
   background-color: var(--secondary);
   color: var(--light);
   padding-top: 20px;
-`;
+`
 
 export const Div = styled.div`
   margin-top: 100px;
@@ -37,12 +37,12 @@ export const Div = styled.div`
     font-weight: 700;
     cursor: pointer;
   }
-`;
+`
 
 export const P = styled.p`
   margin: 25px 0;
   font-weight: 700;
-`;
+`
 
 export const DivImg = styled.div`
   div {
@@ -50,4 +50,4 @@ export const DivImg = styled.div`
     justify-content: center;
     width: 210px;
   }
-`;
+`
