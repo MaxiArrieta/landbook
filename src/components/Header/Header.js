@@ -37,10 +37,15 @@ export default function Header() {
         <button>Iniciar sesión</button>
       </Head>
       <DivImg>
-        <Img fluid={firstImage.childImageSharp.fluid} key={firstImage.id} />
+        <Img
+          fluid={firstImage.childImageSharp.fluid}
+          key={firstImage.id}
+          imgStyle={{ objectFit: "contain" }}
+        />
         <Img
           fluid={secondaryImage.childImageSharp.fluid}
           key={secondaryImage.id}
+          imgStyle={{ objectFit: "contain" }}
         />
       </DivImg>
       <Div>

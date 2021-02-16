@@ -21,7 +21,11 @@ export default function Start() {
     <Section>
       <Div>
         <DivImg>
-          <Img fluid={firstImg.childImageSharp.fluid} key={firstImg.id} />
+          <Img
+            fluid={firstImg.childImageSharp.fluid}
+            key={firstImg.id}
+            imgStyle={{ objectFit: "contain" }}
+          />
         </DivImg>
         <h2>¡Empezá ahora gratis!</h2>
         <P>

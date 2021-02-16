@@ -48,6 +48,6 @@ export const DivImg = styled.div`
   div {
     display: flex;
     justify-content: center;
-    width: 210px;
+    width: 260px;
   }
 `

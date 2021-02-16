@@ -39,7 +39,11 @@ export default function About() {
       </Title>
       <Div>
         <DivImg>
-          <Img fluid={firstImg.childImageSharp.fluid} key={firstImg.id} />
+          <Img
+            fluid={firstImg.childImageSharp.fluid}
+            key={firstImg.id}
+            imgStyle={{ objectFit: "contain" }}
+          />
           <article>
             <P>
               Diseña tu landing <br /> en 5 minutos
@@ -55,6 +59,7 @@ export default function About() {
           <Img
             fluid={secondaryImg.childImageSharp.fluid}
             key={secondaryImg.id}
+            imgStyle={{ objectFit: "contain" }}
           />
           <br />
           <article>
@@ -69,7 +74,11 @@ export default function About() {
           </article>
         </DivImg>
         <DivImg>
-          <Img fluid={thirdImg.childImageSharp.fluid} key={thirdImg.id} />
+          <Img
+            fluid={thirdImg.childImageSharp.fluid}
+            key={thirdImg.id}
+            imgStyle={{ objectFit: "contain" }}
+          />
           <br />
           <article>
             <P>
