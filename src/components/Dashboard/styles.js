@@ -70,7 +70,7 @@ export const Div = styled.div`
     text-align: center;
     margin: 0 auto;
     padding: 20px 10px 20px 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 100px;
     color: white;
     background-color: var(--secondary);
@@ -80,6 +80,7 @@ export const Div = styled.div`
     cursor: pointer;
     font-size: 0.9em;
     border: 1px solid var(--secondary);
+    outline: none;
 
     &:hover {
       background-color: #19308c;

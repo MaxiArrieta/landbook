@@ -2,7 +2,7 @@ import styled from "styled-components"
 import Img from "gatsby-image"
 
 export const Section = styled.section`
-  width: 80%;
+  width: 100%;
 `
 export const Title = styled.h3`
   padding-top: 30px;
