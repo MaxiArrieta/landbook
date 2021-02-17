@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Section = styled.section`
   width: 100%;
-  height: 860px;
+  height: 900px;
 `
 
 export const Title = styled.div`

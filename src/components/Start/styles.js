@@ -1,8 +1,9 @@
 import styled from "styled-components"
+import { Link as LinkButtom } from "gatsby"
 
 export const Section = styled.section`
   width: 100%;
-  height: 860px;
+  height: 900px;
   background-color: var(--secondary);
   color: var(--light);
   padding-top: 20px;
@@ -24,19 +25,6 @@ export const Div = styled.div`
     justify-content: center;
     margin: 25px 0;
   }
-  button {
-    background-color: var(--light);
-    border: none;
-    border-radius: 10px;
-    color: #19308c;
-    outline: none;
-    width: 270px;
-    height: 75px;
-    padding: 15px;
-    font-size: 1.6em;
-    font-weight: 700;
-    cursor: pointer;
-  }
 `
 
 export const P = styled.p`
@@ -49,5 +37,29 @@ export const DivImg = styled.div`
     display: flex;
     justify-content: center;
     width: 260px;
+  }
+`
+
+export const Link = styled(LinkButtom)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light);
+  border: 1px solid var(--light);
+  border-radius: 10px;
+  color: #19308c;
+  outline: none;
+  width: 270px;
+  height: 75px;
+  padding: 15px;
+  font-size: 1.6em;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    border: 1px solid var(--light);
+    background-color: var(--secondary);
+    color: var(--light);
   }
 `

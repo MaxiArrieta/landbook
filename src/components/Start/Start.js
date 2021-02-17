@@ -1,7 +1,7 @@
 import React from "react"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
-import { Section, Div, DivImg, P } from "./styles"
+import { Section, Div, DivImg, P, Link } from "./styles"
 
 export default function Start() {
   const { firstImg } = useStaticQuery(graphql`
@@ -34,7 +34,7 @@ export default function Start() {
           automatizar tus ventas.
         </P>
         <div>
-          <button>Pruebalo Gratis</button>
+          <Link to="/dashboard">Pruebalo Gratis</Link>
         </div>
         <p>14 días de prueba gratis. Sin tarjeta de crédito.</p>
       </Div>

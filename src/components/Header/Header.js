@@ -1,7 +1,7 @@
 import React from "react"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
-import { Section, Head, DivImg, Div, P } from "./styles"
+import { Section, Head, DivImg, Div, P, Link, LinkLogin } from "./styles"
 
 export default function Header() {
   const { firstImage, secondaryImage } = useStaticQuery(graphql`
@@ -25,16 +25,13 @@ export default function Header() {
     }
   `)
 
-  console.log(firstImage)
-  console.log(secondaryImage)
-
   return (
     <Section>
       <Head>
         <h2>
           Landbook <span>TM</span>
         </h2>
-        <button>Iniciar sesión</button>
+        <LinkLogin to="/dashboard">Iniciar sesión</LinkLogin>
       </Head>
       <DivImg>
         <Img
@@ -53,7 +50,7 @@ export default function Header() {
           Crea tu landing <br /> page en minutos
         </h1>
         <P>y obtiene clienes nuevos ahora.</P>
-        <button>Pruebalo Gratis</button>
+        <Link to="/dashboard">Pruebalo Gratis</Link>
         <p>14 días de prueba gratis. Sin tarjeta de crédito.</p>
       </Div>
     </Section>

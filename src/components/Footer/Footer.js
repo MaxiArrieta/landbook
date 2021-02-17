@@ -1,5 +1,5 @@
 import React from "react"
-import styled from "styled-components"
+import { Section, Div, Li } from "./styles"
 
 export default function Footer() {
   return (
@@ -26,50 +26,6 @@ export default function Footer() {
           </ul>
         </div>
       </Div>
-      <DivBy>
-        <p>
-          Web realizada por
-          <a href="mailto:arrieta.maxi18@gmail.com"> Maximiliano Arrieta</a>
-        </p>
-      </DivBy>
     </Section>
   )
 }
-
-export const Section = styled.footer`
-  width: 100%;
-`
-export const Div = styled.div`
-  display: flex;
-  justify-content: space-around;
-
-  div {
-    padding: 40px;
-    margin-bottom: 15px;
-  }
-  ul {
-    list-style: none;
-  }
-
-  li {
-    font-size: 0.8em;
-  }
-`
-
-export const Li = styled.li`
-  font-weight: bold;
-  margin-bottom: 15px;
-`
-
-export const DivBy = styled.div`
-  background-color: #d7d7d8;
-  p {
-    font-size: 0.8em;
-    text-align: center;
-  }
-  a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-  }
-`
