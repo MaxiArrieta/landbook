@@ -26,10 +26,18 @@ export const Card = styled.div`
   border-radius: 25px;
   background-color: #ffe5e6;
   justify-content: space-around;
-  height: 120px;
+  height: 140px;
 
   h3 {
     color: #fb5d64;
+  }
+
+  article {
+    margin-top: 40px;
+  }
+
+  p {
+    color: #3c3b60;
   }
 `
 

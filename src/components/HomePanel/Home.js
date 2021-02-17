@@ -73,7 +73,7 @@ export default function Home() {
       </Section>
       <SideBar>
         <span>Cerrar Sesión</span>
-        <h3>Tus Landing</h3>
+        <h3>Tus Landings</h3>
         <div>
           <p>
             Cemepla - Médico en Planta <br />

@@ -39,6 +39,12 @@ export const Nav = styled.nav`
     fill: #fb5d64;
     cursor: pointer;
   }
+
+  span {
+    font-size: 0.5em;
+    position: absolute;
+    margin: 10px 5px;
+  }
 `
 
 export const Div = styled.div`
@@ -59,11 +65,11 @@ export const Div = styled.div`
   b {
     color: #000;
   }
-  span {
+  button {
     display: flex;
     text-align: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 10px 20px 20px;
     border-radius: 5px;
     width: 100px;
     color: white;
@@ -73,6 +79,7 @@ export const Div = styled.div`
     align-items: center;
     cursor: pointer;
     font-size: 0.9em;
+    border: 1px solid var(--secondary);
 
     &:hover {
       background-color: #19308c;

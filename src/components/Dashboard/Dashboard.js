@@ -6,7 +6,9 @@ export default function Dashboard() {
   return (
     <Section>
       <Nav>
-        <h3>Landbook</h3>
+        <h3>
+          Landbook <span>TM</span>
+        </h3>
         <ul>
           <Li>
             <svg
@@ -102,7 +104,7 @@ export default function Dashboard() {
                 </g>
               </g>
             </svg>
-            Constact
+            Contactos
           </li>
           <li>
             <svg
@@ -152,7 +154,7 @@ export default function Dashboard() {
           <p>
             Actualiza al <b>Plan Light</b> para publicar tu página
           </p>
-          <span>Actualizar</span>
+          <button>Actualizar</button>
         </Div>
       </Nav>
       <DivContenido>
